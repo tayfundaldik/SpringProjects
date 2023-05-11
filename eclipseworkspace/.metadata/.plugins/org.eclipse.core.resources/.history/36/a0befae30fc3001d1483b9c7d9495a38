@@ -1,0 +1,5 @@
+package com.mightyblaze.springframep;
+
+public class HelloWorldConfiguration {
+
+}

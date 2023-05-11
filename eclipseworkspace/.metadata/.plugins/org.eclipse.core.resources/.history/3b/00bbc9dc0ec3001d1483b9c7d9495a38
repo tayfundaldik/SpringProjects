@@ -1,0 +1,13 @@
+package com.mightyblaze.springframep;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringFramepApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringFramepApplication.class, args);
+	}
+
+}

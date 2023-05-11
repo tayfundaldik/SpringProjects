@@ -1,0 +1,12 @@
+package com.in28minutes.rest.webservices.restfulwebservices.todo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TodoResource {
+	@GetMapping("/users/{username}/todos")
+	public void retrieveTodos() {
+		
+	}
+}

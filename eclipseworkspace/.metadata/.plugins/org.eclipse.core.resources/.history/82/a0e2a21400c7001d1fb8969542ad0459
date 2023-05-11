@@ -1,0 +1,5 @@
+package com.mightyblaze.springframep.examples.a0;
+
+public class MySQLDataService {
+
+}

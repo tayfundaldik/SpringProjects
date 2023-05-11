@@ -1,0 +1,2 @@
+
+CREATE TABLE course(id bigint not null, name VARCHAR(255) not null,author varchar(255) not null,PRIMARY KEY(id));

@@ -1,0 +1,32 @@
+package com.mightyblaze.springframep;
+
+import javax.swing.text.AbstractDocument.Content;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.mightyblaze.springframep.game.GameRunner;
+import com.mightyblaze.springframep.game.GamingConsole;
+import com.mightyblaze.springframep.game.MarioGame;
+import com.mightyblaze.springframep.game.PacManGame;
+import com.mightyblaze.springframep.game.SuperContraGame;
+import org.springframework.context.annotation.Bean;
+@Configuration
+@ComponentScan("com.mightyblaze.springframep.game")
+public class App03GamingSpringBeans {
+	
+	public static void main(String[] args) {
+		
+		try(var context = new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class)){
+		context.getBean(GamingConsole.class).up();
+		context.getBean(GameRunner.class).run();
+		
+		}
+		
+		 
+		 
+	}
+
+}

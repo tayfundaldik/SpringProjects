@@ -1,0 +1,1 @@
+INSERT INTO course (id,name,author) VALUES (8,'Dragunar','Mighty Blaze');

@@ -1,0 +1,5 @@
+package com.thatwashurt.rest.webservices.restfulwebservices.user;
+
+public class User {
+
+}

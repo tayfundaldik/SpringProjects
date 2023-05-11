@@ -1,0 +1,1 @@
+INSERT INTO todo (ID,USERNAME,DESCRIPTION,TARGET_DATE,DONE)VALUES (10001,'legendarybroly','Kill Griffith',CURRENT_DATE(),false);
